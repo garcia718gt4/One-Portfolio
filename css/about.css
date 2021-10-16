@@ -1,0 +1,172 @@
+/* 
+TEXT BOLD
+font-family: lust-text,serif;
+font-weight: 700;
+font-style: normal;
+
+Lust Text BOOK
+font-family: lust-text,serif;
+font-weight: 400;
+font-style: normal;
+
+BOLD ITALIC
+font-family: lust-text,serif;
+font-weight: 700;
+font-style: normal;
+
+TEXT ITALIC
+font-family: lust-text,serif;
+font-weight: 400;
+font-style: italic; 
+
+MEDIUM
+font-family: lust-text, serif;
+font-weight: 500;
+font-style: normal;
+
+BLACK
+font-family: lust-text, serif;
+font-weight: 900;
+font-style: normal;*/
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* ||  FONT STYLES *******/
+html {
+    font-size: 17px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#454545;
+}
+
+h1,
+h3 {
+    font-family: lust,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#7d7d7dee; 
+    width: 270px;
+}
+
+h1,
+h5 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+h3 {
+    font-size: 1.3rem;
+    color:#454545;
+}
+
+h4,
+.copyright {
+    font-size: .94rem;
+}
+
+#main-title a {
+    text-decoration: none;
+    color:#7d7d7dee; 
+}
+
+#main-title a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ICONS  */
+
+.shape-icon {
+    width: 2.1rem;
+    height: 1.1rem;
+}
+
+#footer-container .american-flag {
+    width: 1.8rem;
+    height: .8rem;
+}
+
+
+/* || HEADER *******/
+
+.header-container {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    height: 65px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container-wrap {
+    display: flex;
+    margin: 0 auto;
+    width: 320px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item a {
+    color: #454545bc;
+    transition: color .3s ease;
+}
+
+.nav-item a:hover {
+    color: #454545;
+}
+
+
+
+/* || LOGO STYLE *******/
+
+#logo {
+    font-family: "quiche-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+
+/* || MAIN CONTAINER *******/
+
+.main-container {
+    width: 100%;
+    margin-top: 65px;
+    background:#f4f4f4;
+}
+
+#main-title {
+    margin: 0 auto;
+}
+
+#main-title h1 {
+    padding-top: 3rem;
+    
+}
+
+#main-title h5 {
+    padding: 1rem 0 3rem;
+}

@@ -42,7 +42,10 @@ a {
 
 
 /* ICONS  */
-.web-dev-icon,
+.web-dev-icon {
+    width: 2rem;
+    height: 1rem;
+}
 #footer-container .american-flag {
     width: 1.8rem;
     height: .8rem;
@@ -88,6 +91,7 @@ a {
     font-family: "quiche-display", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 1.1rem;
 }
 
 
@@ -326,6 +330,11 @@ Media Query for 1024px (large tablets)
 
 @media (min-width: 1024px) {
 
+.web-dev-icon {
+    width: 2.1rem;
+    height: 1.1rem;
+}
+
 /* || MAIN CONTAINER *******/
 .nav-container-wrap,
 #footer-container {
@@ -350,7 +359,7 @@ Media Query for 1024px (large tablets)
 }
 
 /* || FOOTER CONTAINER *******/
-.web-dev-icon,
+
 #footer-container .american-flag {
     width: 2rem;
     height: 1rem;
