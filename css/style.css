@@ -174,7 +174,6 @@ h1 {
     height: 300px;
 }
 
-
 #hero-container img {
     position: absolute;
     top: 0;
@@ -212,10 +211,27 @@ h1 {
 }
 
 
-#footer-container .american-flag {
+.flag {
     width: 1.8rem;
     height: .8rem;
 }
+
+.flag-white {
+    display: inline-block;
+}
+
+.flag-color {
+    display: none;
+}
+
+.flag-container:hover .flag-white {
+    display: none;
+}
+
+.flag-container:hover .flag-color {
+    display: inline-block;
+}
+
 
 .copyright,
 .signature {
@@ -344,7 +360,7 @@ Media Query for 1024px (large tablets)
 
 
 /* || FOOTER CONTAINER *******/
-#footer-container .american-flag {
+.flag {
     width: 2rem;
     height: 1rem;
 }

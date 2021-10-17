@@ -27,10 +27,9 @@ font-style: normal;
 BLACK
 font-family: lust-text, serif;
 font-weight: 900;
-font-style: normal;*/
+font-style: normal;
 
-
-
+*/
 
 * {
     box-sizing: border-box;
@@ -48,57 +47,93 @@ body {
     color:#454545;
 }
 
-h1,
-h3 {
-    font-family: lust,serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-h5 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color:#7d7d7dee; 
-    width: 270px;
-}
-
-h1,
-h5 {
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-h3 {
-    font-size: 1.3rem;
-    color:#454545;
-}
-
 h4,
 .copyright {
     font-size: .94rem;
-}
-
-#main-title a {
-    text-decoration: none;
-    color:#7d7d7dee; 
-}
-
-#main-title a:hover {
-    text-decoration: underline;
 }
 
 a {
     text-decoration: none;
 }
 
-/* ICONS  */
-
-.shape-icon {
-    width: 2.1rem;
-    height: 1.1rem;
+.title {
+    font-family: lust-text,serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
 }
 
+p {
+    font-family: lust-text,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-wrap p {
+    line-height: .55rem;
+}
+
+.skills-wrap p {
+    line-height: .45rem;
+    font-size: .99rem;
+}
+
+
+
+/* ICONS DISAPEAR   */
+
+.icon-container,
+.certificate-container {
+    padding:0;
+    margin:0;
+}
+
+.shape-icon {
+    width: 1.6rem;
+    height: 1.3rem;
+}
+
+.ribbon-icon {
+    width: 1.8rem;
+    height: 1.5rem;
+}
+
+.ribbon-icon {
+    text-align: end;
+}
+
+.black-diamond,
+.icon-black,
+.linkedin-black,
+.gmail-black {
+    display: inline-block;
+}
+
+.yellow-diamond,
+.icon-white,
+.linkedin-colored,
+.gmail-colored {
+    display: none;
+}
+
+.icon-container:hover .black-diamond {
+    display: none;
+}
+
+.ribbon-container:hover .icon-black {
+    display: none;
+}
+
+.icon-container:hover .yellow-diamond {
+    display: inline-block;
+}
+
+.ribbon-container:hover .icon-white {
+    display: inline-block
+}
+
+
+/* AMERICAN FLAG ICON */
 #footer-container .american-flag {
     width: 1.8rem;
     height: .8rem;
@@ -138,8 +173,6 @@ a {
     color: #454545;
 }
 
-
-
 /* || LOGO STYLE *******/
 
 #logo {
@@ -155,18 +188,410 @@ a {
 .main-container {
     width: 100%;
     margin-top: 65px;
+    /* background: #fcf8f6; */
     background:#f4f4f4;
 }
 
-#main-title {
+
+/* || ABOUT CONTAINER *******/
+
+.about-wrap {
+    padding:2rem 0;
     margin: 0 auto;
+    text-align: center;
+    width: 90%;
 }
 
-#main-title h1 {
-    padding-top: 3rem;
+
+/* || SKILLS CONTAINER *******/
+
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.skills-wrap,
+.tools-wrap {
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+}
+
+.skills-wrap p {
+    text-align: left;
+}
+
+
+
+/* || TOOLS CONTAINER *******/
+
+.tools-icons-wrap,
+.contact-icons-wrap {
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.contact-icons-wrap {
+    width: 200px;
+}
+
+
+.tools-icon{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* || CONTACT CONTAINER *************/
+
+/* || ICONS CONTAINER *******/
+
+.linkedin-icon-container:hover .linkedin-black {
+    display: none;
+}
+
+.gmail-icon-container:hover .gmail-black{
+    display: none;
+}
+
+.linkedin-icon-container:hover .linkedin-colored {
+    display: inline-block;
+}
+
+.gmail-icon-container:hover:hover .gmail-colored {
+    display: inline-block
+}
+
+.contact-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.gmail-icon {
+    width: 4.25rem;
+    height: 4.4rem;
+}
+
+.contact-wrap {
+    padding-bottom: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+
+
+/* || FOOTER CONTAINER STYLES *******/
+
+#footer-container{
+    padding: .5rem 0;
+    display: flex;
+    width: 330px;
+    height: 65px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flag {
+    width: 1.8rem;
+    height: .8rem;
+}
+
+.flag-white {
+    display: inline-block;
+}
+
+.flag-color {
+    display: none;
+}
+
+.flag-container:hover .flag-white {
+    display: none;
+}
+
+.flag-container:hover .flag-color {
+    display: inline-block;
+}
+
+
+.copyright,
+.signature {
+    color:rgb(145, 145, 145)
+}
+
+
+.signature {
+    font-family: quiche-sans,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bahena {
+    display: none;
+}
+
+
+
+/* =====================================
+Media Query for 576px (landscape phones)
+========================================= */
+
+@media (min-width: 576px) {
+
+.title {
+    font-size: 2.4rem;
+}
+
+.about-wrap p {
+   font-size: 1.3rem;
+}
+
+.skills-wrap p {
+    font-size: 1rem;
+}
+
+    
+/* || HEADER & FOOTER *******/
+.nav-container-wrap,
+#footer-container,
+.skills-wrap {
+    width: 420px;
+}
+
+
+}
+
+/* ==============================
+Media Query for 768px (tablets)
+================================== */
+
+@media (min-width: 768px) {
+
+/* || FONT STYLES  *******/
+
+.title {
+    font-size: 2.8rem;
+}
+
+
+.about-wrap p {
+    line-height: .75rem;
+    font-size: 1.5rem;
+}
+
+.skills-wrap p {
+    font-size: 1.2rem;
+}
+
+.ribbon-icon {
+    width: 2.4rem;
+    height: 2rem;
+}
+
+/* || WRAPPER *******/
+.nav-container-wrap,
+#footer-container,
+.skills-wrap {
+    width: 520px;
+}
+
+.tools-wrap {
+    width: 330px;
+}
+
+.tools-icons-wrap {
+    width: 330px;
+    justify-content: space-around;
+}
+
+
+
+}
+
+
+/* ====================================
+Media Query for 1024px (large tablets)
+======================================= */
+
+@media (min-width: 1024px) {
+
+ /* || FONT STYLES  *******/
+
+.title {
+    font-size: 3rem;
+}
+
+
+.about-wrap p {
+    font-size: 1.78rem;
+}
+
+.skills-wrap p {
+    font-size: 1.38rem;
+}
+
+
+
+
+/* || MAIN CONTAINER *******/
+.nav-container-wrap,
+#footer-container {
+    width: 720px;
+}
+
+.shape-icon {
+    width: 1.8rem;
+    height: 1.5rem;
+}
+
+/* || WRAPPER *******/
+.skills-wrap {
+    width: 620px;
+}
+
+
+.tools-wrap {
+    width: 390px;
+}
+
+.tools-icons-wrap {
+    width: 390px;
+    justify-content: space-between;
+}
+
+
+
+/* || FOOTER CONTAINER *******/
+.flag {
+    width: 2rem;
+    height: 1rem;
+}
+
+h4,
+.copyright {
+    font-size: 1rem;
+}
+
+.bahena {
+    display: inline-block;
+}
+      
+}
+
+/* =====================================
+Media Query for 1366px (Laptop & Desktop)
+======================================== */
+
+@media (min-width: 1366px) {
+
+.about-wrap {
+    padding:3rem 0 4rem;
+}
+
+/* || FONT STYLES  *******/
+
+.title {
+    font-size: 3.4rem;
+}
+
+.about-wrap p {
+    font-size: 2rem;
+    line-height: .95rem;
+}
+
+.skills-wrap p {
+    font-size: 1.58rem;
+}
+
+.ribbon-icon {
+    width: 2.9rem;
+    height: 2.5rem;
+}
+
+/* || SKILLS WRAP  *******/
+.skills-wrap,
+.tools-wrap {
+    padding-bottom: 4rem;
+}
+
+/* || TOOLS CONTAINER  *******/
+
+.tools-wrap {
+    width: 900px;
+}
+
+.tools-icons-wrap {
+    width: 900px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    
+/* || SHAPE ICON *******/
+
+.shape-icon {
+    width: 2rem;
+    height: 1.65rem;
+}
+
+
+.nav-container-wrap,
+#footer-container {
+    width: 1150px;
+}
+
+.contact-wrap {
+    padding-bottom: 11rem;
+}
+
+
     
 }
+    
+/* =====================================
+Media Query for 1600px (Wide screens)
+======================================== */
 
-#main-title h5 {
-    padding: 1rem 0 3rem;
+@media (min-width: 1600px) {
+
+    
+/* || FONT STYLES  *******/
+
+.title {
+    font-size: 3.7rem;
+}
+
+.about-wrap p {
+    line-height: 1.1rem;
+    font-size: 2.3rem;
+}
+
+
+.skills-wrap p {
+    font-size: 1.8rem;
+}
+
+
+.nav-container-wrap,
+#footer-container {
+    width: 1300px;
+}
+
+
+
+
+    
 }

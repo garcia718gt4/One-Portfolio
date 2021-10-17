@@ -150,6 +150,8 @@ a {
     padding-bottom: 2rem;
 }
 
+
+
 .card-container {
     position: relative;
     width: 100%;
@@ -160,6 +162,7 @@ a {
     box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
     border-radius: 3px;
 }
+
 
 .card-container:hover {
     box-shadow: 0 0 0 white;
@@ -262,6 +265,27 @@ a {
     justify-content: space-between;
 }
 
+
+.flag {
+    width: 1.8rem;
+    height: .8rem;
+}
+
+.flag-white {
+    display: inline-block;
+}
+
+.flag-color {
+    display: none;
+}
+
+.flag-container:hover .flag-white {
+    display: none;
+}
+
+.flag-container:hover .flag-color {
+    display: inline-block;
+}
 
 
 .copyright,
@@ -391,7 +415,7 @@ Media Query for 1024px (large tablets)
 }
 
 /* || FOOTER CONTAINER *******/
-#footer-container .american-flag {
+.flag {
     width: 2rem;
     height: 1rem;
 }
