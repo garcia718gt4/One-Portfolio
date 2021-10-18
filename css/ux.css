@@ -42,7 +42,7 @@ h3 {
 
 h4,
 .copyright {
-    font-size: .94rem;
+    font-size: .88rem;
 }
 
 #main-title a {
@@ -64,6 +64,7 @@ a {
     height: 1.175rem;
 
 }
+
 #footer-container .american-flag {
     width: 1.8rem;
     height: .8rem;
@@ -180,8 +181,8 @@ a {
 
 .ux-icon {
     position: relative;
-    width: 1.8rem;
-    height: 1.5rem;
+    width: 1.9rem;
+    height: 1.6rem;
 }
 
 .icon-black {
@@ -354,8 +355,8 @@ h5 {
 
 /* || GITHUB ICON *******/
 .ux-icon {
-    width: 2rem;
-    height: 1.7rem;
+    width: 2.1rem;
+    height: 1.8rem;
 }
 
 
@@ -396,7 +397,7 @@ Media Query for 1024px (large tablets)
 
 .paintbrush-icon {
     width: 2.22rem;
-    height: 1.29rem;
+    height: 1.32rem;
 }
 
 .skillset-container {
@@ -449,8 +450,8 @@ h3 {
 /* || GITHUB ICON *******/
 
 .ux-icon {
-    width: 2.2rem;
-    height: 1.9rem;
+    width: 2.3rem;
+    height: 2rem;
 }
 
 
