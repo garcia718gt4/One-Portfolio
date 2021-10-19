@@ -42,7 +42,7 @@ function plusPrototype(n) {
 }
 
 // Thumbnail image controls
-function currentIndex(n) {
+function currentPrototype(n) {
   showPrototypes(screenIndex = n);
 }
 

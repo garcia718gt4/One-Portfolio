@@ -17,27 +17,23 @@ body {
 
 .overview-title-wrap h1,
 .overview-title-wrap h5 {
+    font-family: fairplex-wide,serif;
+    font-weight: 700;
+    font-style: normal;
     margin:0 auto;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 400;
 }
 
-h1 {
-    letter-spacing: 0.2em;
-}
-
-
-h2,
-h3 {
-    font-family: 'Rajdhani', sans-serif;
-}
 
 h2 {
-    font-weight: 600;
+    font-family: fairplex-narrow,serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h3 {
+    font-family: fairplex-wide,serif;
     font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -174,7 +170,7 @@ p {
     height: 300px;
 }
 
-.restaurant-mobile {
+.tcc-mobile {
     position: relative;
     top: 0;
     bottom:0;
@@ -185,8 +181,8 @@ p {
 }
 
 
-.restaurant-tablet,
-.restaurant-desktop {
+.tcc-tablet,
+.tcc-desktop {
     display: none;
 }
 
@@ -199,24 +195,24 @@ p {
 
 .banner h3 {
     font-size: 1.8rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.07em;
 }
 
     /* BANNER BACKGROUND COLORS  */
 .empathize-banner {
-    background-color: #d6bd7dc4;
+    background-color: #CB2400;
 }
 .ideate-banner {
-    background-color: rgba(176, 176, 176, 0.74);
+    background-color: rgba(186, 186, 186, 0.74);
 }
 .testing-banner {
-    background-color: rgb(34, 83, 136);
+    background-color: rgba(186, 220, 255, 0.863);
 }
 .prototype-banner {
-    background-color: rgb(43, 43, 43);
+    background-color: rgba(253, 183, 157, 0.87);
 }
 .summary-banner {
-    background: linear-gradient(-120.45deg, #1c5281 1%,  #9c7e42 100%);
+    background: linear-gradient(-90deg, #CB2400 1%, #f7a172  100%);
 }
 .accessibility-banner {
     background-color: rgb(236, 228, 228);
@@ -225,16 +221,16 @@ p {
 
      /* BANNER FONT COLORS  */
 .empathize-banner h3 {
-    color: #745e25;
+    color: #feece8;
 }
 .ideate-banner h3 {
     color: rgb(72, 72, 72)
 }
 .testing-banner h3 {
-    color: rgb(217, 227, 244);
+    color: rgb(9, 82, 160);
 }
 .prototype-banner h3 {
-    color: rgb(232, 232, 232);
+    color: #923d0f;
 }
 .summary-banner h3 {
     color: white;
@@ -275,7 +271,8 @@ p {
 
 /* Slideshow container ******************/
 
-.wireframe-img {
+.wireframe-img,
+.user-research-text-wrap img {
     width: 100%;
     box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
 }

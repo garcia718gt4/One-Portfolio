@@ -7,19 +7,17 @@
     <title>Anderson Case Study</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/anderson.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/olr6qgy.css">
 </head>
 <body>
     <div class="header-container">
         <div class="nav-container-wrap">
             <div class="nav-item"><a href="index.html" id="logo">RGB</a></div>
-            <div class="icon-container"><a href="#top"><img class="dinnerplate-icon" src="images/svg/dinner-plate.svg" alt="resturant icon dark"></a></div>
+            <div class="icon-container"><a href="#top"><img class="dinnerplate-icon" src="images/svg/dinner-plate.svg" alt="dinner plate icon"></a></div>
             <div class="nav-item"><a href="about.html">About</a></div>
         </div>
     </div>
@@ -28,11 +26,12 @@
     <main class="main-content" id="top">
 
         <div class="study-overview-container">
-            <div class="overview-text-wrap">
-                <div class="overview-title-wrap">
-                    <h5>Overview</h5>
-                    <h1>ANDERSON</h1>
-                </div>
+            <div class="content-image-container">
+                <div class="overview-text-wrap">
+                    <div class="overview-title-wrap">
+                        <h5>Overview</h5>
+                        <h1>ANDERSON</h1>
+                    </div>
 
                     <div class="content-wrap overview-content-wrap">
                         <div class="overview-paragraph-wrap">
@@ -52,12 +51,13 @@
                             <p>Designing an app from conception to delivery: conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating.</p>
                         </div>
                     </div>
-            </div>
-            
-            <div class="overview-image-container">
-                <img class="restaurant-cover-img restaurant-mobile" src="images/ux-design/anderson-restaurant/anderson-restaurant-mobile.jpg" alt="a steak dinner">
-                <img class="restaurant-cover-img restaurant-tablet" src="images/ux-design/anderson-restaurant/anderson-restaurant-tablet.jpg" alt="a steak dinner">
-                <img class="restaurant-cover-img restaurant-desktop" src="images/ux-design/anderson-restaurant/anderson-restaurant-1366.jpg" alt="a steak dinner">
+                </div>
+                
+                <div class="overview-image-container">
+                    <img class="restaurant-mobile" src="images/ux-design/anderson-restaurant/anderson-restaurant-mobile.jpg" alt="a steak dinner">
+                    <img class="restaurant-tablet" src="images/ux-design/anderson-restaurant/anderson-restaurant-tablet.jpg" alt="a steak dinner">
+                    <img class="restaurant-desktop" src="images/ux-design/anderson-restaurant/anderson-restaurant-1366.jpg" alt="a steak dinner">
+                </div>
             </div>
         </div>
 
@@ -111,7 +111,7 @@
             <div class="title-center content-wrap">
                 <div class="ideate-title-wrap">
                     <h2>Wireframes</h2>
-                    <p>I prioritized a simple navigation flow to viewing and selecting a menu item for a usability study later.</p>
+                    <p>I prioritized a simple navigation flow to viewing and selecting a menu item for a usability study.</p>
                 </div>
 
                 <!-- Slideshow container wireframes-->
@@ -266,17 +266,17 @@
 
                 <!-- The dots/circles -->
                 <div class="dot-container">
-                    <span class="dot-proto" onclick="currentSlide(1)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(2)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(3)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(4)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(1)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(2)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(3)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(4)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(1)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(2)"></span> 
-                    <span class="dot-proto" onclick="currentSlide(2)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(1)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(2)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(3)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(4)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(5)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(6)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(7)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(8)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(9)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(10)"></span> 
+                    <span class="dot-proto" onclick="currentPrototype(11)"></span> 
                 </div>
             </div>
         </div>
@@ -285,14 +285,14 @@
         <!-- SUMMARY BANNER ---------------------------->
 
         <div class="banner summary-banner">
-            <div class="banner-title-wrap"><h3>PROTOTYPE SUMMARY</h3></div>
+            <div class="banner-title-wrap"><h3>SUMMARY</h3></div>
         </div>
 
         <div>
             <div class="content-wrap">
                 <p>My goal for the mockups was to fix the user pain points while remaining consistent with the Google prompt of designing an app for a fancy restaurant.</p>
                 <p>The user feedback resulted in important design changes. To illustrate, I included the word "Add," so users can easily understand the purpose of the button. I also changed the plate icon to a bill to help the user navigate to the checkout screen. This design change, I believe, would help users understand the icon's meaning better than a plate, as a restaurant bill gives the customer their total cost. Lastly, I included a couple screens to help the user tip their server and reassured them their order was successfully placed.</p>
-                <p>To promote feelings of luxury and class, I selected a shade of gold color and paired it with a saturated blue to serve as the primary colors. I used black and gray as secondary colors to balance the subtle vibrace of the gold and blue.</p>
+                <p>To promote feelings of luxury and class, I selected a shade of gold color and paired it with a saturated blue to serve as the primary colors. I used black and gray as secondary colors to balance the subtle vibrace of the gold and blue. Lastly, for the typeface, I was inspired by the Michelin star restaurant in Del Mar, CA, called Addison, and used a similar typography choice.</p>
             </div>
         </div>
 
