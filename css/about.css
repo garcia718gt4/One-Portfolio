@@ -1,35 +1,4 @@
-/* 
-TEXT BOLD
-font-family: lust-text,serif;
-font-weight: 700;
-font-style: normal;
 
-Lust Text BOOK
-font-family: lust-text,serif;
-font-weight: 400;
-font-style: normal;
-
-BOLD ITALIC
-font-family: lust-text,serif;
-font-weight: 700;
-font-style: normal;
-
-TEXT ITALIC
-font-family: lust-text,serif;
-font-weight: 400;
-font-style: italic; 
-
-MEDIUM
-font-family: lust-text, serif;
-font-weight: 500;
-font-style: normal;
-
-BLACK
-font-family: lust-text, serif;
-font-weight: 900;
-font-style: normal;
-
-*/
 
 * {
     box-sizing: border-box;
@@ -539,13 +508,7 @@ Media Query for 1366px (Laptop & Desktop)
     justify-content: space-between;
 }
 
-    
-/* || SHAPE ICON *******/
 
-.shape-icon {
-    width: 2rem;
-    height: 1.65rem;
-}
 
 
 .nav-container-wrap,

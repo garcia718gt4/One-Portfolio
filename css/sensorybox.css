@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+
+h2 {
+font-family: brevia,sans-serif;
+font-weight: 700;
+font-style: normal;
+} */
+
 /* ||  FONT STYLES *******/
 html {
     font-size: 17px;
@@ -17,24 +24,19 @@ body {
 
 .overview-title-wrap h1,
 .overview-title-wrap h5 {
-    font-family: fairplex-wide,serif;
-    font-weight: 700;
-    font-style: normal;
-    margin:0 auto;
+    font-family: brevia,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0 auto;
 }
 
 
 h2 {
-    font-family: fairplex-narrow,serif;
-    font-weight: 500;
+    font-family: brevia,sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 
-h3 {
-    font-family: fairplex-wide,serif;
-    font-weight: 500;
-    font-style: normal;
-}
 
 
 .overview-title-wrap h5 {
@@ -62,7 +64,7 @@ p {
 
 
 /* CHARITIES ICON HEADER  */
-.charities-icon {
+.sensorybox-icon {
     width: 1.4rem;
     height: 1.6rem;
 }
@@ -194,43 +196,46 @@ p {
 }
 
 .banner h3 {
+    font-family: brevia,sans-serif;
+    font-weight: 800;
+    font-style: italic;
     font-size: 1.8rem;
-    letter-spacing: 0.07em;
 }
 
     /* BANNER BACKGROUND COLORS  */
 .empathize-banner {
-    background-color: #CB2400;
+    background-color: #a9ffd5d9;
 }
 .ideate-banner {
     background-color: rgba(186, 186, 186, 0.74);
 }
 .testing-banner {
-    background-color: rgba(186, 220, 255, 0.863);
+    background-color: rgba(209, 193, 255, 0.88);
 }
 .prototype-banner {
-    background-color: rgba(253, 183, 157, 0.87);
+    background-color: rgba(255, 226, 185, 0.897);
 }
 .summary-banner {
-    background: linear-gradient(-90deg, #CB2400 1%, #f7a172  100%);
+    background: linear-gradient(90deg, #319762 1%, #622ea2f3  100%);
 }
 .accessibility-banner {
     background-color: rgb(236, 228, 228);
 }
 
 
+
      /* BANNER FONT COLORS  */
 .empathize-banner h3 {
-    color: #fff3f0;
+    color: #0d874cf9;
 }
 .ideate-banner h3 {
     color: rgb(72, 72, 72)
 }
 .testing-banner h3 {
-    color: rgb(9, 82, 160);
+    color: rgba(53, 21, 148, 0.893);
 }
 .prototype-banner h3 {
-    color: #923d0f;
+    color: rgb(147, 90, 11);
 }
 .summary-banner h3 {
     color: white;
