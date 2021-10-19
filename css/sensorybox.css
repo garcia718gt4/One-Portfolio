@@ -204,13 +204,13 @@ p {
 
     /* BANNER BACKGROUND COLORS  */
 .empathize-banner {
-    background-color: #a9ffd5d9;
+    background-color: #bdffdfea;
 }
 .ideate-banner {
     background-color: rgba(186, 186, 186, 0.74);
 }
 .testing-banner {
-    background-color: rgba(209, 193, 255, 0.88);
+    background-color: rgba(216, 202, 255, 0.948);
 }
 .prototype-banner {
     background-color: rgba(255, 226, 185, 0.897);
@@ -226,16 +226,16 @@ p {
 
      /* BANNER FONT COLORS  */
 .empathize-banner h3 {
-    color: #0d874cf9;
+    color: #118d51;
 }
 .ideate-banner h3 {
     color: rgb(72, 72, 72)
 }
 .testing-banner h3 {
-    color: rgba(53, 21, 148, 0.893);
+    color: rgba(67, 38, 155, 0.918);
 }
 .prototype-banner h3 {
-    color: rgb(147, 90, 11);
+    color: rgb(151, 95, 17);
 }
 .summary-banner h3 {
     color: white;
