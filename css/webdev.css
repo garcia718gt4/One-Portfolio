@@ -126,7 +126,7 @@ h1 {
 .card-container {
     position: relative;
     width: 100%;
-    padding: 4.4rem 0;
+    padding: 4rem 0;
     text-align: center;
     margin-bottom: 3rem;
     background: #FFFFFF;
@@ -141,7 +141,7 @@ h1 {
 .card-container:hover h3 {
     position: relative;
     z-index: 99;
-    color: rgb(240, 240, 240);
+    color: rgb(244, 244, 244);
 }
 
 
@@ -441,7 +441,7 @@ h3 {
 /* || SKILLSET CONTAINER *******/
 
 .skillset-container {
-    width:1200px;
+    width:1220px;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 0;
@@ -451,7 +451,7 @@ h3 {
 .card-container {
     width: 30%;
     height: 100%;
-    padding:4.6rem 0;
+    padding:4.2rem 0;
     margin-bottom:0;
 }
 

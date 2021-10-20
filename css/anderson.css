@@ -1,19 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-/* ||  FONT STYLES *******/
-html {
-    font-size: 17px;
-    height: 100%;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color:#454545;
-}
-
 
 .overview-title-wrap h1,
 .overview-title-wrap h5 {
@@ -25,7 +9,6 @@ body {
 h1 {
     letter-spacing: 0.2em;
 }
-
 
 h2,
 h3 {
@@ -41,138 +24,12 @@ h3 {
 }
 
 
-.overview-title-wrap h5 {
-    color: rgb(144, 144, 144);
-    padding: .5rem 0;
-    font-size: 1rem;
-}
-
-
-h4,
-.copyright {
-    font-size: .88rem;
-}
-
-
-a {
-    text-decoration: none;
-}
-
-p {
-    color:#454545cd;
-    line-height: 1.3;
-}
-
-
-
 /* DINNER PLATE ICON HEADER  */
 .dinnerplate-icon {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.64rem;
+    height: 1.64rem;
 }
 
-
-/* || HEADER *******/
-
-.header-container {
-    position: fixed;
-    top: 0;
-    background: #fff;
-    height: 65px;
-    width: 100%;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-container-wrap {
-    display: flex;
-    margin: 0 auto;
-    width: 320px;
-    margin: 0 auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-item a {
-    color: #454545bc;
-    transition: color .3s ease;
-}
-
-.nav-item a:hover {
-    color: #454545;
-}
-
-/* || LOGO STYLE *******/
-
-#logo {
-    font-family: "quiche-display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.1rem;
-}
-
-
-/* || MAIN CONTAINER ****************/
-
-/* OVERVIEW */
-.main-content {
-    width: 100%;
-    margin-top: 65px;
-    background:#f4f4f4;
-}
-
-.content-image-container  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.overview-title-wrap {
-    text-align: center;
-    padding: 2rem 0 1rem;
-}
-
-.overview-content-wrap {
-    border-top: 1px solid rgb(179, 179, 179);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* CONTENT WRAP 320px */
-
-.content-wrap {
-    width: 320px;
-    padding:1rem 0 2rem;
-    margin: 0 auto;
-}
-
-
-/* TITLE CENTER ******/
-
-.title-center h2 {
-    text-align: center;
-}
-
-
-.four-pg-content-wrap {
-    border-top: 1px solid rgb(184, 184, 184);
-}
-
-.overview-paragraph-wrap {
-    text-align: left;
-}
-
-.overview-image-container {
-    position: relative;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 300px;
-}
 
 .restaurant-mobile {
     position: relative;
@@ -185,20 +42,14 @@ p {
 }
 
 
-.restaurant-tablet,
-.restaurant-desktop {
+.restaurant-tablet {
     display: none;
 }
 
+
 /* TTITLE BANNERS  */
 
-.banner-title-wrap {
-    padding: 1rem 0;
-    text-align: center;
-}
-
 .banner h3 {
-    font-size: 1.8rem;
     letter-spacing: 0.1em;
 }
 
@@ -241,211 +92,57 @@ p {
 }
 
 
-/* USER RESEARCH CONTAINER */
-.user-research-text-wrap {
-    padding-bottom:1rem;
+/* =====================================
+Media Query for 768px (tablets)
+======================================== */
+
+@media (min-width: 768px) {
+    
+.restaurant-mobile{
+    display: none;
 }
 
-.user-persona-img,
-.storyboard-img {
+.restaurant-tablet {
     position: relative;
     top: 0;
     bottom:0;
+    object-fit: cover;
     width: 100%;
+    height: 100%;
     display:inline-block;
 }
 
-.storyboard-imgs-container h3 {
-    text-align: center;
-}
-
-.big-picture-img {
-    margin-bottom:1rem;
 }
 
 
+/* ====================================
+Media Query for 1024px (large tablets)
+======================================= */
 
-/* IDEATE TITLE CONTAINER */
+@media (min-width: 1024px) {
 
-
-.ideate-title-wrap {
-    padding-bottom: 2rem;
-}
-
-
-/* Slideshow container ******************/
-
-.wireframe-img,
-.user-research-text-wrap img {
-    width: 100%;
-    box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
-}
-
-.slideshow-container {
-    width: 320px;
-    position: relative;
-    margin: 0 auto;
-}
-
-.prototypes-container {
-    padding-top: 2rem;
-}
-
-/* Hide the images by default */
-.mySlides,
-.prototypes {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 12px 11px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.3s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: #6a6a6a;
-}
-
-
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, 
-.next:hover {
-    background-color: #171717;
-}
-
-
-/* Caption text */
-.slides-title {
-    position: absolute;
-    text-align: center;
-    color: #9b56bb;
-    font-size: .92rem;
-    padding: 8px 12px;
-    top: 8px;
-    width: 100%;
-}
-
-/* Number text */
-.numbertext {
-    color:#9b56bb;
-    font-size: .88rem;
-    padding: 8px 12px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-}
-
-/* The dots/bullets/indicators */
-.dot-container {
-    padding-bottom: 1rem;
-    text-align: center;
-}
-.dot,
-.dot-proto {
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: rgb(196, 196, 196);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-  
-.active, .dot:hover {
-    background-color: #454545d6;
-}
-
-.active, .dot-proto:hover {
-    background-color: #454545d6;
-}
-
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: .3s;
-    animation-name: fade;
-    animation-duration: .3s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .5} 
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .5} 
-    to {opacity: 1}
-}
-
-
-/* LEARNINGS CONTENT WRAP */
-#learnings-content-wrap {
-    padding:0 0 5rem;
-}
-
-/* || FOOTER CONTAINER STYLES *******/
-
-#footer-container{
-    padding: .5rem 0;
-    display: flex;
-    width: 330px;
-    height: 65px;
-    margin: 0 auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flag {
+.dinnerplate-icon {
     width: 1.8rem;
-    height: .8rem;
-}
-
-.flag-white {
-    display: inline-block;
-}
-
-.flag-color {
-    display: none;
-}
-
-.flag-container:hover .flag-white {
-    display: none;
-}
-
-.flag-container:hover .flag-color {
-    display: inline-block;
+    height: 1.8rem;
 }
 
 
-.copyright,
-.signature {
-    color:rgb(145, 145, 145)
 }
 
 
-.signature {
-    font-family: quiche-sans,sans-serif;
-    font-weight: 500;
-    font-style: normal;
+/* =====================================
+Media Query for 1366px (Laptop & Desktop)
+======================================== */
+
+@media (min-width: 1366px) {
+
+.dinnerplate-icon {
+    width: 2rem;
+    height: 2rem;
 }
 
-.bahena {
-    display: none;
 }
+
+
+
+    
