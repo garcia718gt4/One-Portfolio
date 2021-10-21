@@ -291,6 +291,11 @@ h1 {
     padding: 4rem 0;
 }
 
+h4,
+.copyright {
+    font-size: .8rem;
+}
+
 /* || HEADER FOOTER *******/
 .nav-container-wrap,
 #footer-container {

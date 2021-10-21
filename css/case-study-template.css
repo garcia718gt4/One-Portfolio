@@ -442,6 +442,11 @@ h2 {
     font-size: 2.58rem;
 }
 
+h4,
+.copyright {
+    font-size: .8rem;
+}
+
 .user-research-text-wrap h3 {
     font-size: 1.85rem;
 }

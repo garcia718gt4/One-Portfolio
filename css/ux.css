@@ -358,6 +358,11 @@ h5 {
     font-size: .94rem;
 }
 
+h4,
+.copyright {
+    font-size: .8rem;
+}
+
 
 /* || GITHUB ICON *******/
 .ux-icon {
