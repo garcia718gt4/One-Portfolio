@@ -28,9 +28,12 @@ h3 {
     color:#454545;
 }
 
-h4,
-.copyright {
+h4 {
     font-size: .88rem;
+}
+
+.copyright {
+    font-size: .79rem;
 }
 
 a {
@@ -367,6 +370,7 @@ h4,
 .copyright {
     font-size: 1rem;
 }
+
 
 .bahena {
     display: inline-block;
