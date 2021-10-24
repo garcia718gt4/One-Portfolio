@@ -45,7 +45,22 @@ a {
 .web-dev-icon {
     width: 1.7rem;
     height: 1.4rem;
+    display: inline-block;
 }
+
+.colored-header-icon {
+    display: none;
+}
+
+.nav-item:hover .web-dev-icon{
+    display: none;
+}
+
+.nav-item:hover .colored-header-icon {
+    display: inline-block;
+}
+
+
 #footer-container .american-flag {
     width: 1.8rem;
     height: .8rem;

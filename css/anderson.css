@@ -28,7 +28,22 @@ h3 {
 .dinnerplate-icon {
     width: 1.64rem;
     height: 1.64rem;
+    display: inline-block;
 }
+
+.colored-header-icon {
+    display: none;
+}
+
+.icon-container:hover .dinnerplate-icon {
+    display: none;
+}
+
+.icon-container:hover .colored-header-icon {
+    display: inline-block;
+}
+
+
 
 
 .restaurant-mobile {

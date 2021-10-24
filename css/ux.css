@@ -62,8 +62,24 @@ a {
 .paintbrush-icon {
     width: 2.1rem;
     height: 1.2rem;
-
+    display: inline-block;
 }
+
+.colored-header-icon {
+    display: none;
+}
+
+.nav-item:hover .paintbrush-icon{
+    display: none;
+}
+
+.nav-item:hover .colored-header-icon {
+    display: inline-block;
+}
+
+
+
+
 
 #footer-container .american-flag {
     width: 1.8rem;
@@ -176,6 +192,12 @@ a {
 
 
 /* || UX ICONS *******/
+
+
+
+
+
+
 
 .ux-icon {
     position: relative;
