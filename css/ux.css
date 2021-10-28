@@ -36,7 +36,7 @@ h5 {
 
 
 h3 {
-    font-size: 1.375rem;
+    font-size: 1.6rem;
     color:#454545;
 }
 
@@ -44,6 +44,35 @@ h4,
 .copyright {
     font-size: .7rem;
 }
+
+
+
+/* CASE STUDY FONTS */
+.anderson-font {
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.tc-font {
+    font-family: fairplex-wide,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sensorybox-font {
+    font-family: brevia,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.gw-font {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 
 #main-title a {
     text-decoration: none;
@@ -373,7 +402,7 @@ h1 {
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 h5 {
@@ -477,7 +506,7 @@ h1 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 /* || GITHUB ICON *******/
@@ -489,9 +518,6 @@ h3 {
 
 
 /* || MAIN CONTAINER *******/
-.main-container {
-    height: 650px;
-}
 .nav-container-wrap,
 #footer-container {
     width: 1150px;
@@ -501,17 +527,14 @@ h3 {
 
 .skillset-container {
     width:1220px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 0;
     padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
 .card-container {
     width: 30%;
     height: 100%;
     padding:4.2rem 0;
-    margin-bottom:0;
 }
 
 
@@ -535,7 +558,6 @@ Media Query for 1600px (Wide screens)
     .skillset-container {
         width:1360px;
     }
-
 
     
     }
