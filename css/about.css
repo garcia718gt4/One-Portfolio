@@ -501,18 +501,19 @@ Media Query for 1366px (Laptop & Desktop)
 }
 
 /* || TOOLS CONTAINER  *******/
+.tools-icon {
+    margin-right: .5rem;
+}
 
 .tools-wrap {
-    width: 900px;
+    width: 700px;
 }
 
 .tools-icons-wrap {
-    width: 900px;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 700px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
-
-
 
 
 .nav-container-wrap,
