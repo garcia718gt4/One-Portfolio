@@ -14,6 +14,10 @@ body {
     color:#454545;
 }
 
+.main-title {
+    padding-top: 1rem;
+}
+
 h1 {
     text-align: center;
     width: 300px;
@@ -134,15 +138,15 @@ a {
     background: #FFFFFF;
     box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
     border-radius: 3px;
+    transition: background-color .3s ease;
 }
 
 .card-container:hover {
     box-shadow: 0 0 0 white;
+    background-color: #2b2b2b;
 }
 
 .card-container:hover h3 {
-    position: relative;
-    z-index: 99;
     color: rgb(240, 240, 240);
 }
 
