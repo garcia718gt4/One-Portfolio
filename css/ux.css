@@ -419,6 +419,10 @@ Media Query for 1024px (large tablets)
 
 @media (min-width: 1024px) {
 
+h1 {
+    font-size: 3.3rem;
+}
+
 /* || MAIN CONTAINER *******/
 .nav-container-wrap,
 #footer-container {
@@ -473,7 +477,7 @@ Media Query for 1366px (Laptop & Desktop)
 
 
 h1 {
-    font-size: 3.3rem;
+    font-size: 3.7rem;
 }
 
 h3 {
