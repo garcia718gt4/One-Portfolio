@@ -102,6 +102,17 @@ h2 {
     color: white;
 }
 
+.frame-prototype {
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+
+.frame-prototype iframe {
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+}
 
 
 /* =====================================
