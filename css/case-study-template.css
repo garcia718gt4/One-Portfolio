@@ -159,6 +159,7 @@ p {
     text-align: center;
 }
 
+
 .banner h3 {
     font-size: 1.8rem;
 }
@@ -345,7 +346,8 @@ p {
 
 
 #learnings-content-wrap {
-    padding:0 0 6rem;
+    padding:0 0 10rem;
+    margin-top: -30px;
 }
 
 #learnings-content-wrap p {
