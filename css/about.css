@@ -198,6 +198,21 @@ p {
 
 
 
+
+/* ADOBE *********/
+.adobe-title p {
+    text-align: center;
+}
+
+.adobe-title a {
+    color: #454545;
+    text-decoration: underline;
+}
+
+.adobe-title a:hover {
+    text-decoration: none;
+}
+
 /* || TOOLS CONTAINER *******/
 
 .tools-icons-wrap,
@@ -437,6 +452,10 @@ Media Query for 1024px (large tablets)
 /* || WRAPPER *******/
 .skills-wrap {
     width: 620px;
+}
+
+.adobe-skills-wrap {
+    width: 900px;
 }
 
 
