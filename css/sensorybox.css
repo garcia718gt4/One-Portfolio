@@ -21,6 +21,9 @@ h2 {
     letter-spacing: -.05rem;
 }
 
+
+
+
 /* CHARITIES ICON HEADER  */
 .sensorybox-icon {
     width: 1.64rem;
@@ -62,6 +65,12 @@ h2 {
     font-weight: 800;
     font-style: italic;
 }
+
+h3 {
+    font-family: brevia,sans-serif;
+    font-style: normal;
+}
+
 
     /* BANNER BACKGROUND COLORS  */
 .empathize-banner {
@@ -105,14 +114,19 @@ h2 {
 .frame-prototype {
     margin: 0px auto;
     text-align: center;
-    position: relative;
+    padding-bottom: 1rem;
 }
 
-.frame-prototype iframe {
-    width: 100%;
-    object-fit: cover;
-    height: 800px;
+.frame-prototype a {
+    color: #005da4;
+    text-decoration: underline;
 }
+
+.frame-prototype a:hover {
+    color: #005da4b4;
+}
+
+
 
 
 /* =====================================

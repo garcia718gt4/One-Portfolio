@@ -106,16 +106,20 @@ h3 {
     color: white;
 }
 
+
 .frame-prototype {
     margin: 0px auto;
     text-align: center;
-    position: relative;
+    padding-bottom: 1rem;
 }
 
-.frame-prototype iframe {
-    width: 100%;
-    object-fit: cover;
-    height: 800px;
+.frame-prototype a {
+    color: #005da4;
+    text-decoration: underline;
+}
+
+.frame-prototype a:hover {
+    color: #005da4b4;
 }
 
 /* =====================================
