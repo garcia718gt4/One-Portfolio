@@ -50,7 +50,18 @@ h4,
 
 
 
-/* CASE STUDY FONTS */
+/* ||  CASE STUDY FONTS *******/
+.card-container h5 {
+    margin-bottom: -18px;
+}
+
+
+.wiggly-font {
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
 .anderson-font {
     font-weight: 400;
     letter-spacing: 0.2em;
@@ -316,7 +327,7 @@ a {
     font-family: quiche-sans,sans-serif;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.025rem;
 }
 
 .bahena {
@@ -502,19 +513,18 @@ h3 {
 
 .skillset-container {
     width:1220px;
-    padding:5rem 0;
     margin-top: 30px;
 }
 
 .section-container {
-    height: 650px;
+    height: 750px;
 }
 
 
 .card-container {
     width: 30%;
     height: 100%;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 
