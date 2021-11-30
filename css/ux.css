@@ -512,20 +512,17 @@ h3 {
 /* || SKILLSET CONTAINER *******/
 
 .skillset-container {
-    width:1220px;
-    margin-top: 30px;
+    width:880px;
 }
 
 .section-container {
     height: 750px;
 }
 
-
 .card-container {
-    width: 30%;
     height: 100%;
-    margin-bottom: 40px;
-}
+    margin-bottom: 45px;
+} 
 
 
 }
@@ -543,11 +540,5 @@ Media Query for 1600px (Wide screens)
         width: 1300px;
     }
     
-    /* || SKILLSET CONTAINER *******/
     
-    .skillset-container {
-        width:1360px;
-    }
-
-    
-    }
+}
