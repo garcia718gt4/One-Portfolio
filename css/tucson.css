@@ -106,20 +106,6 @@ h3 {
     color: white;
 }
 
-.frame-prototype {
-    margin: 0px auto;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.frame-prototype a {
-    color: #005da4;
-    text-decoration: underline;
-}
-
-.frame-prototype a:hover {
-    color: #005da4b4;
-}
 
 /* =====================================
 Media Query for 768px (tablets)

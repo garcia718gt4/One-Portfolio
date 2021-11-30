@@ -1,42 +1,38 @@
-
-h2 {
-    font-family: brevia,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-} 
-
-
 .overview-title-wrap h1,
 .overview-title-wrap h5 {
-    font-family: brevia,sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    margin: 0 auto;
-}
-
-h2 {
-    font-family: brevia,sans-serif;
-    font-weight: 600;
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 900;
     font-style: normal;
-    letter-spacing: -.05rem;
+    margin:0 auto;
+}
+
+.overview-title-wrap h1 {
+    color: #EF2323;
 }
 
 
+h2,
+h3,
+.banner h3,
+.overview-title-wrap h5 {
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
 
 
-/* CHARITIES ICON HEADER  */
-.sensorybox-icon {
+/* DINNER PLATE ICON HEADER  */
+.grocery-cart-icon {
     width: 1.64rem;
     height: 1.64rem;
     display: inline-block;
 }
 
-
 .colored-header-icon {
     display: none;
 }
 
-.icon-container:hover .sensorybox-icon {
+.icon-container:hover .grocery-cart-icon {
     display: none;
 }
 
@@ -45,7 +41,8 @@ h2 {
 }
 
 
-.sensorybox-mobile {
+
+.wiggly-mobile {
     position: relative;
     top: 0;
     bottom:0;
@@ -55,38 +52,28 @@ h2 {
     display:inline-block;
 }
 
-.sensorybox-tablet {
+.wiggly-tablet {
     display: none;
 }
 
 
-.banner h3 {
-    font-family: brevia,sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
-h3 {
-    font-family: brevia,sans-serif;
-    font-style: normal;
-}
 
 
     /* BANNER BACKGROUND COLORS  */
 .empathize-banner {
-    background-color: #c1ffdcf7;
+    background-color: #dcdcdc;
 }
 .ideate-banner {
-    background-color: rgba(186, 186, 186, 0.74);
+    background-color: #a0a0a0;
 }
 .testing-banner {
-    background-color: rgba(216, 202, 255, 0.948);
+    background-color: #565656;
 }
 .prototype-banner {
-    background-color: rgba(255, 226, 185, 0.897);
+    background-color: #EF2323;
 }
 .summary-banner {
-    background: linear-gradient(90deg, #319762 1%, #622ea2f3  100%);
+    background: linear-gradient(45deg, #EF2323 1%, #ff7b7b 50%,#EF2323 100%);
 }
 .accessibility-banner {
     background-color: rgb(236, 228, 228);
@@ -96,21 +83,20 @@ h3 {
 
      /* BANNER FONT COLORS  */
 .empathize-banner h3 {
-    color: #119d59ee;
+    color: #767676;
 }
 .ideate-banner h3 {
-    color: rgb(72, 72, 72)
+    color: rgb(239, 239, 239);
 }
 .testing-banner h3 {
-    color: rgba(67, 38, 155, 0.918);
+    color: rgb(235, 235, 235);
 }
 .prototype-banner h3 {
-    color: rgb(151, 95, 17);
+    color: rgb(255, 233, 233);
 }
 .summary-banner h3 {
     color: white;
 }
-
 
 
 
@@ -123,11 +109,11 @@ Media Query for 768px (tablets)
 @media (min-width: 768px) {
     
 
-.sensorybox-mobile{
+.wiggly-mobile{
     display: none;
 }
 
-.sensorybox-tablet {
+.wiggly-tablet {
     position: relative;
     top: 0;
     bottom:0;
@@ -146,7 +132,7 @@ Media Query for 1024px (large tablets)
 
 @media (min-width: 1024px) {
 
-.sensorybox-icon {
+.grocery-cart-icon {
     width: 1.8rem;
     height: 1.8rem;
 }
@@ -160,7 +146,7 @@ Media Query for 1366px (Laptop & Desktop)
 
 @media (min-width: 1366px) {
 
-.sensorybox-icon{
+.grocery-cart-icon{
     width: 1.9rem;
     height: 1.9rem;
 }
