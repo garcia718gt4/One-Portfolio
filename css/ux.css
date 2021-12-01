@@ -544,7 +544,11 @@ Media Query for 1600px (Wide screens)
         padding-top: 5rem;
         width:1600px;
         flex-direction: row;
-        justify-content: space-between;    
+        justify-content: space-between;   
+    }
+
+    .section-container {
+        height: 685px;
     }
 
     .card-container {
