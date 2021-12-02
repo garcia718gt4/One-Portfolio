@@ -197,22 +197,29 @@ p {
 }
 
 
-
-
 /* ADOBE *********/
-.adobe-title p {
-    text-align: center;
-    line-height: 1.5;
+
+.adobe-badges-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
-.adobe-title a {
-    color: #454545;
-    text-decoration: underline;
+.adobe-badges-container img {
+    margin-bottom: 1.5rem;
 }
 
-.adobe-title a:hover {
-    text-decoration: none;
+.adobe-professional-badge {
+    height: 150px;
+    width: 150px;
 }
+
+.adobe-badge {
+    height: 120px;
+    width: 120px;
+}
+
 
 /* || TOOLS CONTAINER *******/
 
@@ -411,6 +418,17 @@ h4,
     justify-content: space-around;
 }
 
+/* ADOBE *********/
+.adobe-professional-badge {
+    height: 175px;
+    width: 175px;
+}
+
+.adobe-badge {
+    height: 145px;
+    width: 145px;
+}
+
 
 
 }
@@ -469,8 +487,6 @@ Media Query for 1024px (large tablets)
     width: 390px;
     justify-content: space-between;
 }
-
-
 
 /* || FOOTER CONTAINER *******/
 .flag {
@@ -547,8 +563,28 @@ Media Query for 1366px (Laptop & Desktop)
     padding-bottom: 11rem;
 }
 
+/* ADOBE *********/
 
-    
+.adobe-badges-container {
+    width:800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* ADOBE *********/
+.adobe-professional-badge {
+    height: 200px;
+    width: 200px;
+}
+
+.adobe-badge {
+    height: 170px;
+    width: 170px;
+}
+
+
 }
     
 /* =====================================
