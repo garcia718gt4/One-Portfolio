@@ -31,10 +31,6 @@ h1 {
     font-style: normal;
 }
 
-
-
-
-
 h3 {
     font-size: 1.422rem;
     color:#454545;
@@ -49,10 +45,16 @@ a {
     text-decoration: none;
 }
 
-.web-dev-title {
+.web-dev-title,
+h6 {
     font-family: poppins,sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+h6 {
+    margin:0;
+    padding:0;
 }
 
 .ux-title {

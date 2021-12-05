@@ -51,10 +51,6 @@ h4,
 
 
 /* ||  CASE STUDY FONTS *******/
-.card-container h5 {
-    margin-bottom: -18px;
-}
-
 
 .wiggly-font {
     font-family: museo-sans-rounded,sans-serif;
@@ -166,8 +162,6 @@ a {
 }
 
 
-/* || MAIN CONTAINER *******/
-
 /* || SKILLSET CONTAINER *******/
 
 .skillset-container {
@@ -190,7 +184,6 @@ a {
     margin-bottom: 2rem;
     transition: background-color .3s ease;
 }
-
 
 .card-container:hover {
     box-shadow: 0 0 0 white;
@@ -240,9 +233,6 @@ a {
     transition: .4s ease;
 }
 
-.card-container:hover .skill-img {
-    opacity: 1;
-}
 
 
 /* || BOTTOM HERO IMAGE *******/

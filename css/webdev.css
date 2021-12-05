@@ -48,6 +48,9 @@ a {
     display: inline-block;
 }
 
+
+
+
 .colored-header-icon {
     display: none;
 }
@@ -67,7 +70,7 @@ a {
 }
 
 
-/* || HEADER *******/
+/* || HEADER ****** */
 
 .header-container {
     position: fixed;
@@ -129,13 +132,11 @@ h1 {
 /* || SKILLSET CONTAINER *******/
 
 .skillset-container {
-    position: relative;
     width:300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 2rem 0;
     margin: 0 auto;
-    padding-bottom: 2rem;
 }
 
 
@@ -149,8 +150,8 @@ h1 {
     border-radius: 3px;
     margin-bottom: 2rem;
     transition: background-color .3s ease;
+    border:1px solid red;
 }
-
 
 .card-container:hover {
     box-shadow: 0 0 0 white;
@@ -190,34 +191,23 @@ h1 {
 
 
 
-
-.skill-img {
-    position: absolute;
-    top:0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-    transition: .4s ease;
-}
-
-.card-container:hover .skill-img {
-    opacity: 1;
-}
-
-
 /* || BOTTOM HERO IMAGE *******/
-#hero-container {
+
+
+.hero-container {
     position: relative;
     top:0;
     left: 0;
     width: 100%;
     height: 300px;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 
-
-#hero-container img {
+.hero-container img {
     position: absolute;
     top: 0;
     bottom:0;
@@ -227,16 +217,12 @@ h1 {
     display:inline-block;
 }
 
-
-
-
 .hero-title {
+    margin: 0 auto;
+    color:#f0f0f0;
     position: relative;
     z-index: 99;
-    color:rgb(240, 240, 240);
-    padding-top: 50px;
 }
-
 
 /* || FOOTER CONTAINER STYLES *******/
 
@@ -314,6 +300,7 @@ h3 {
     width: 420px;
 }
 
+
 /* || SKILLSET CONTAINER *******/
 
 .skillset-container {
@@ -370,10 +357,9 @@ h1 {
 
 
 /* || BOTTOM HERO IMAGE *******/
-#hero-container {
-    height: 500px;
+.hero-container {
+    height: 350px;
 }
-
 }
 
 
@@ -398,19 +384,17 @@ Media Query for 1024px (large tablets)
 
 .skillset-container {
     width:780px;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    padding: 3.5rem 0;
 }
 
 .card-container {
-    width: 45%;
+    width: 40%;
 }
 
 /* || BOTTOM HERO IMAGE *******/
-#hero-container {
-    height: 560px;
+.hero-container {
+    height: 525px;
 }
-
 /* || FOOTER CONTAINER *******/
 
 .flag {
@@ -463,21 +447,18 @@ h3 {
 
 /* || SKILLSET CONTAINER *******/
 
+.section-container {
+    height: 750px;
+}
+
 .skillset-container {
-    width:1220px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 0;
-    padding-top: 1rem;
+    width:880px;
 }
 
 .card-container {
-    width: 30%;
     height: 100%;
-    padding:4.2rem 0;
-    margin-bottom:0;
-}
-
+    margin-bottom: 45px;
+} 
 
 }
 
@@ -495,11 +476,574 @@ Media Query for 1600px (Wide screens)
     }
     
     /* || SKILLSET CONTAINER *******/
+    .skillset-container {
+        padding-top: 5rem;
+        width:1000px;  
+        border: 1px solid red;
+    }
+
+    .section-container {
+        height: 685px;
+    }
+
+    .card-container {
+        width: 31%;
+      
+    }
+    
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+/* ||  FONT STYLES *******/
+html {
+    font-size: 17px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#454545;
+}
+
+h1,
+h3 {
+    font-family: lust,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#7d7d7dee; 
+    width: 270px;
+}
+
+h1,
+h5 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+    color:#454545;
+}
+
+h4,
+.copyright {
+    font-size: .7rem;
+}
+
+
+
+/* ||  CASE STUDY FONTS *******/
+
+.wiggly-font {
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.anderson-font {
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.tc-font {
+    font-family: fairplex-wide,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sensorybox-font {
+    font-family: brevia,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.gw-font {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* ICONS  */
+.paintbrush-icon {
+    width: 2.1rem;
+    height: 1.2rem;
+    display: inline-block;
+}
+
+.colored-header-icon {
+    display: none;
+}
+
+.nav-item:hover .paintbrush-icon{
+    display: none;
+}
+
+.nav-item:hover .colored-header-icon {
+    display: inline-block;
+}
+
+
+
+
+
+#footer-container .american-flag {
+    width: 1.8rem;
+    height: .8rem;
+}
+
+
+/* || HEADER *******/
+
+.header-container {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    height: 65px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container-wrap {
+    display: flex;
+    margin: 0 auto;
+    width: 320px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item a {
+    color: #454545bc;
+    transition: color .3s ease;
+}
+
+.nav-item a:hover {
+    color: #454545;
+}
+
+
+
+/* || LOGO STYLE *******/
+
+#logo {
+    font-family: "quiche-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+
+/* || SKILLSET CONTAINER *******/
+
+.skillset-container {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+
+.card-container {
+    position: relative;
+    width: 100%;
+    padding: 4rem 0;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    transition: background-color .3s ease;
+}
+
+.card-container:hover {
+    box-shadow: 0 0 0 white;
+    background-color: #2b2b2b;
+}
+
+.card-container:hover h3 {
+    position: relative;
+    z-index: 99;
+    color: rgb(244, 244, 244);
+}
+
+
+/* || UX ICONS *******/
+
+.ux-icon {
+    position: relative;
+    width: 1.85rem;
+    height: 1.85rem;
+}
+
+.icon-black {
+    display: inline-block;
+}
+
+.card-container:hover .icon-black {
+    display: none;
+}
+
+.icon-white {
+    display: none;
+}
+
+.card-container:hover .icon-white {
+    display: inline-block;
+}
+
+
+.skill-img {
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: .4s ease;
+}
+
+
+
+/* || BOTTOM HERO IMAGE *******/
+.hero-container {
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.hero-container img {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+}
+
+
+.case-study-title {
+    margin: 0 auto;
+    color:#454545;
+    position: relative;
+    z-index: 99;
+}
+
+
+/* || FOOTER CONTAINER STYLES *******/
+
+
+#footer-container {
+    padding: .5rem 0;
+    display: flex;
+    width: 330px;
+    height: 65px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    border-top: 1px solid rgb(179, 179, 179);
+}
+
+
+.flag {
+    width: 1.8rem;
+    height: .8rem;
+}
+
+.flag-white {
+    display: inline-block;
+}
+
+.flag-color {
+    display: none;
+}
+
+.flag-container:hover .flag-white {
+    display: none;
+}
+
+.flag-container:hover .flag-color {
+    display: inline-block;
+}
+
+
+.copyright,
+.signature {
+    color:rgb(145, 145, 145)
+}
+
+
+.signature {
+    font-family: quiche-sans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.025rem;
+}
+
+.bahena {
+    display: none;
+}
+
+
+
+/* =====================================
+Media Query for 576px (landscape phones)
+========================================= */
+
+@media (min-width: 576px) {
+
+h5 {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.45rem;
+}
+
+.ux-icon {
+    width: 1.95rem;
+    height: 1.95rem;
+}
+
+ /* || HEADER & FOOTER *******/
+.nav-container-wrap,
+#footer-container {
+    width: 420px;
+}
+
+/* || SKILLSET CONTAINER *******/
+
+.skillset-container {
+    width:360px;
+}
+
+}
+
+
+/* ==============================
+Media Query for 768px (tablets)
+================================== */
+
+@media (min-width: 768px) {
+
+/* || FONT STYLES  *******/
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: .94rem;
+}
+
+h4,
+.copyright {
+    font-size: .85rem;
+}
+
+
+/* || GITHUB ICON *******/
+.ux-icon {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+
+/* || HEADER FOOTER *******/
+.nav-container-wrap,
+#footer-container {
+    width: 520px;
+}
+
+/* || SKILLSET CONTAINER *******/
+
+.skillset-container {
+    width:380px;
+}
+
+
+/* || BOTTOM HERO IMAGE *******/
+.hero-container {
+    height: 350px;
+}
+
+}
+
+
+/* ====================================
+Media Query for 1024px (large tablets)
+======================================= */
+
+@media (min-width: 1024px) {
+
+h1 {
+    font-size: 3.3rem;
+}
+
+/* || MAIN CONTAINER *******/
+.nav-container-wrap,
+#footer-container {
+    width: 720px;
+}
+
+/* || SKILLSET CONTAINER *******/
+
+.paintbrush-icon {
+    width: 2.22rem;
+    height: 1.32rem;
+}
+
+.skillset-container {
+    width:780px;
+    padding: 3.5rem 0;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card-container {
+    width: 45%;
+}
+
+/* || BOTTOM HERO IMAGE *******/
+.hero-container {
+    height: 525px;
+}
+
+/* || FOOTER CONTAINER *******/
+.flag {
+    width: 2rem;
+    height: 1rem;
+}
+
+h4,
+.copyright {
+    font-size: 1rem;
+}
+
+.bahena {
+    display: inline-block;
+}
+
+}
+
+/* =====================================
+Media Query for 1366px (Laptop & Desktop)
+======================================== */
+
+@media (min-width: 1366px) {
+
+
+h1 {
+    font-size: 3.7rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* || GITHUB ICON *******/
+
+.ux-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+
+/* || MAIN CONTAINER *******/
+.nav-container-wrap,
+#footer-container {
+    width: 1150px;
+}
+
+/* || SKILLSET CONTAINER *******/
+
+.skillset-container {
+    width:880px;
+}
+
+.section-container {
+    height: 750px;
+}
+
+.card-container {
+    height: 100%;
+    margin-bottom: 45px;
+} 
+
+
+}
+
+/* =====================================
+Media Query for 1600px (Wide screens)
+======================================== */
+
+@media (min-width: 1600px) {
+
+    /* || MAIN CONTAINER *******/
+    
+    .nav-container-wrap,
+    #footer-container {
+        width: 1300px;
+    }
     
     .skillset-container {
-        width:1360px;
+        padding-top: 5rem;
+        width:1600px;
+        flex-direction: row;
+        justify-content: space-between;   
     }
 
+    .section-container {
+        height: 685px;
+    }
 
+    .card-container {
+        width: 23.5%;
+        margin-bottom: 0px;
+    }
     
-    }
+}
+
