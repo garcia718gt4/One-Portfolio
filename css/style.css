@@ -45,12 +45,18 @@ a {
     text-decoration: none;
 }
 
-.web-dev-title,
-h6 {
+.web-dev-title {
     font-family: poppins,sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+
+
+.comming-soon-title {
+    padding: 0; 
+    margin: -7.5px; 
+}
+
 
 h6 {
     margin:0;
@@ -139,7 +145,8 @@ h6 {
     padding-bottom: 2rem;
 }
 
-.card-container {
+.card-container,
+#web-container {
     position: relative;
     width: 100%;
     padding: 4.4rem 0;
@@ -149,6 +156,10 @@ h6 {
     box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
     border-radius: 3px;
     transition: background-color .3s ease;
+}
+
+#web-container {
+    background-color: rgb(205, 205, 205);
 }
 
 .card-container:hover {
@@ -365,7 +376,8 @@ Media Query for 1024px (large tablets)
     justify-content: space-around;
 }
 
-.card-container {
+.card-container,
+#web-container {
     width: 45%;
 }
 
@@ -428,7 +440,8 @@ h3 {
     padding-top: 1rem;
 }
 
-.card-container {
+.card-container,
+#web-container {
     width: 30%;
     height: 100%;
     padding: 4.95rem 0;
