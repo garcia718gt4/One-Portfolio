@@ -16,8 +16,8 @@ body {
 
 h1,
 h3 {
-    font-family: sofia-pro, sans-serif;
-    font-weight: 600;
+    font-family: poppins,sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -138,19 +138,23 @@ h1 {
     padding-bottom: 2rem;
 }
 
+
 .card-container {
     position: relative;
     width: 100%;
     padding: 4rem 0;
     text-align: center;
-    margin-bottom: 3rem;
     background: #FFFFFF;
     box-shadow: 0px 12px 23px rgba(121, 121, 121, 0.226);
     border-radius: 3px;
+    margin-bottom: 2rem;
+    transition: background-color .3s ease;
 }
+
 
 .card-container:hover {
     box-shadow: 0 0 0 white;
+    background-color: #2b2b2b;
 }
 
 .card-container:hover h3 {

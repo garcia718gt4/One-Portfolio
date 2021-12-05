@@ -18,6 +18,7 @@ body {
     padding-top: 1rem;
 }
 
+
 h1 {
     text-align: center;
     width: 300px;
@@ -25,7 +26,14 @@ h1 {
     padding: 3rem 0;
     width: 300px;
     margin: 0 auto;
+    font-family: lust-text,serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
+
+
+
 
 h3 {
     font-size: 1.422rem;
@@ -42,8 +50,8 @@ a {
 }
 
 .web-dev-title {
-    font-family: sofia-pro, sans-serif;
-    font-weight: 600;
+    font-family: poppins,sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
