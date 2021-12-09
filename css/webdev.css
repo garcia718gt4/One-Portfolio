@@ -226,6 +226,10 @@ h1 {
 
 /* || FOOTER CONTAINER STYLES *******/
 
+footer {
+    background-color: #1a1a1a;
+}
+
 #footer-container{
     padding: .5rem 0;
     display: flex;
@@ -262,7 +266,7 @@ h1 {
 
 .copyright,
 .signature {
-    color:rgb(145, 145, 145)
+    color:rgb(162, 162, 162);
 }
 
 
