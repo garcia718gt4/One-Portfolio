@@ -230,7 +230,6 @@ p {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
     width: 250px;
 }
 
@@ -238,6 +237,9 @@ p {
     width: 200px;
 }
 
+.linkedin-icon-container {
+    margin: 0 auto;
+}
 
 .tools-icon{
     width: 5rem;
