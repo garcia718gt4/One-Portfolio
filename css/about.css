@@ -481,7 +481,7 @@ Media Query for 1024px (large tablets)
 }
 
 .adobe-skills-wrap {
-    width: 900px;
+    width: 1000px;
 }
 
 
@@ -572,7 +572,7 @@ Media Query for 1366px (Laptop & Desktop)
 /* ADOBE *********/
 
 .adobe-badges-container {
-    width:800px;
+    width:1000px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
